@@ -7,7 +7,6 @@ function setValidToken(token) {
 }
 
 function getValidToken() {
-    console.log(localStorage.getItem(TOKENKEY));
     return localStorage.getItem(TOKENKEY)
 }
 

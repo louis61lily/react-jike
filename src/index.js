@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import router from '@/router/index'
 import { Provider } from 'react-redux'
+import 'normalize.css'
 
 import store from './store'
 import './index.scss'
