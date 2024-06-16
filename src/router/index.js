@@ -6,13 +6,13 @@ import AuthRoute from '@/components/AuthRoute'
 import { Suspense } from 'react'
 
 
-// import Article from '@/pages/Article'
-// import Publish from '@/pages/Publish'
-// import Home from '@/pages/Home'
+import Article from '@/pages/Article'
+import Publish from '@/pages/Publish'
+import Home from '@/pages/Home'
 
-const Home = lazy(() => import('@/pages/Home'))
-const Article = lazy(() => import('@/pages/Article'))
-const Publish = lazy(() => import('@/pages/Publish'))
+// const Home = lazy(() => import('@/pages/Home'))
+// const Article = lazy(() => import('@/pages/Article'))
+// const Publish = lazy(() => import('@/pages/Publish'))
 
 const router = createBrowserRouter([
     {
